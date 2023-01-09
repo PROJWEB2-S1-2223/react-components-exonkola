@@ -6,20 +6,14 @@ const course = [
   { nom : ' farine' , },
 ];
 
-
-
 function App() {
 
   return (
    <div>
-
           <h1>liste des courses</h1>
-
 
           <Course />
    </div>
-
-
 
   );
 }
@@ -32,7 +26,7 @@ function App() {
          return (
            <li key={term.objectID}>
              <span>
-               {term.nom}
+               {term.nom} < input type = 'checkbox'></input>
              </span>
            </li>
          );
